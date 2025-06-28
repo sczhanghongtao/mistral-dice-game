@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mistral Values Dice</title>
+    <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/e/e6/Mistral_AI_logo_%282025–%29.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P:wght@400;600&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Mistral_AI_logo_%282025–%29.svg" alt="Mistral AI Logo" class="mistral-logo">
+                <h1>Mistral Values</h1>
+            </div>
+            <p class="subtitle">Click the dice to roll and explore how I am a great fit!</p>
+        </header>
+
+        <main class="main">
+            <div class="dice-container">
+                <div class="dice" id="dice">
+                    <!-- Front face (1) -->
+                    <div class="dice-face front" data-value="1">
+                        <div class="value-text">Are you audacious enough?</div>
+                    </div>
+                    
+                    <!-- Back face (2) -->
+                    <div class="dice-face back" data-value="2">
+                        <div class="value-text">Reason with rigor.</div>
+                    </div>
+                    
+                    <!-- Top face (3) -->
+                    <div class="dice-face top" data-value="3">
+                        <div class="value-text">Make our customer succeed.</div>
+                    </div>
+                    
+                    <!-- Bottom face (4) -->
+                    <div class="dice-face bottom" data-value="4">
+                        <div class="value-text">Ship early and accelerate.</div>
+                    </div>
+                    
+                    <!-- Right face (5) -->
+                    <div class="dice-face right" data-value="5">
+                        <div class="value-text">Leave your ego aside.</div>
+                    </div>
+                    
+                    <!-- Left face (6) -->
+                    <div class="dice-face left" data-value="6">
+                        <div class="value-text">Life outside of work.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prompt-container">
+                <div class="prompt" id="prompt">
+                    <span class="prompt-text">Ask me about</span>
+                    <span class="prompt-value" id="promptValue">clicking the dice</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
