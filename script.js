@@ -10,7 +10,7 @@ class MistralDiceGame {
                 value: 'Are you audacious enough?',
                 prompts: [
                     'Left quant finance to bet on the defining tech of our time',
-                    'Took on an ambitious project using unfamiliar tech — and learned fast enough to ship it',
+                    'Often took on ambitious projects using unfamiliar tech — and learned fast enough to ship it',
                     'Build zero-to-one products with no blueprint',
                     'Co-create and prototype with PMs before the roadmap exists',
                     'Explore bold ideas through side projects',
@@ -22,7 +22,7 @@ class MistralDiceGame {
                     'Break complex ML/LLM systems into small, testable parts',
                     'Champion data-driven frameworks for project prioritization',
                     'Correlation <-> causality',
-                    'Manage multi-billion dollar portoflio with high precision'
+                    'Managed multi-billion dollar portoflio with high precision'
                 ]
             },
             3: {
