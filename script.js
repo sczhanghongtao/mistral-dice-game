@@ -20,13 +20,16 @@ class MistralDiceGame {
                 value: 'Reason with rigor.',
                 prompts: [
                     'Break complex ML/LLM systems into small, testable parts',
-                    'Champion data-driven frameworks for prioritization',
+                    'Champion data-driven frameworks for project prioritization',
+                    'Correlation <-> causality',
+                    'Manage multi-billion dollar portoflio with high precision'
                 ]
             },
             3: {
                 value: 'Make our customer succeed.',
                 prompts: [
                     'Join customer calls to surface real pain points',
+                    'Understand the why behind customer asks',
                     'Advocate for customer needs in roadmap planning',
                 ]
             },
@@ -34,20 +37,27 @@ class MistralDiceGame {
                 value: 'Ship early and accelerate.',
                 prompts: [
                     'Prototype fast to test and learn early',
-                    'Ship with intentional trade-offs, then refine'
+                    'Ship with intentional trade-offs, then refine',
+                    'Use open-source tools to build quickly'
                 ]
             },
             5: {
                 value: 'Leave your ego aside.',
                 prompts: [
                     'Get hands-on with messy data and edge cases',
-                    'Step outside my role when needed — PM, DS, QA, support'
+                    'Step outside my role when needed — PM, DS, QA, support',
+                    'Create a culture of learning and experimentation'
                 ]
             },
             6: {
                 value: 'Life outside of work.',
                 prompts: [
-                    'Volunteering, swing dance, biking, reading, tennis, and more'
+                    'Volunteering',
+                    'Swing dance',
+                    'Biking', 
+                    'Reading',
+                    'Tennis',
+                    'More...'
                 ]
             }
         };
